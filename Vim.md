@@ -1,5 +1,19 @@
 # Setting Up My Password-Protected Website Using Vim
 
+## Connect to website
+
+ Here is the command that you enter from a Mac or Linux command line, note the capital X:
+
+```bash
+ssh -X zzzz1111@dsa5021.net
+```
+
+If you are getting a warning message about "untrusted X11 forwarding", you may want to use -Y as in:
+
+```bash
+ssh -Y zzzz1111@dsa5021.net
+```
+
 ## 1. Create/Edit `index.html` in `public_html`
 
 ```bash
